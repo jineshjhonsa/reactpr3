@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import MyInfo from './page1';
-
+import Table from './table'
 
 class Body extends Component {
 
@@ -13,7 +13,7 @@ class Body extends Component {
             }else if (activetab == 2){
                 return <div>page 2</div>
             }else{
-                return <div>page 3</div>
+                return <Table />
             }
         }
 
